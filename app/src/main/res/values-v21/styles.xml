@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="allTranslucent" parent="baseAppTheme">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="toolbarStyle" parent="Base.Widget.AppCompat.ActionBar">
+        <item name="android:colorControlNormal">@color/white</item>
+
+    </style>
+
+</resources>
